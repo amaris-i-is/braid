@@ -10,11 +10,15 @@
 
 .homepage-title {
     width: 50%;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 .homepage-title h1{
     font-family: Helvetica;
     font-weight: 700;
-    font-size: 10rem;
+    font-size: 12vw;
     color: white;
     animation: fadeInDown;
     animation-duration: 2.5s;
@@ -25,10 +29,10 @@
 }
 
 .button {
-	line-height: 50px;
-	height: 50px;
+	line-height: 5vh;
+	height: 5vh;
 	text-align: center;
-	width: 250px;
+	width: 15vw;
     cursor: pointer;
     float: right;
     margin: 10px;
@@ -39,6 +43,7 @@
 	transition: all 0.5s;
     position: relative;
     font-family: Helvetica;
+    font-size: 2vh;
 }
 
 .login-signup::before {
